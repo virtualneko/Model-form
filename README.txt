@@ -1,16 +1,28 @@
-Changes i have made:
-1. Added an option to choose between different models 
-2. After you have said submit on the form it will show the decision at the bottom of the form
-3. added functionality to store the data
-4.styled it with tailwindCSS
-5. added rules to the top of each form and when they arent followed an alert will pop up to promp the user to read the rules again and will not submit until they have filled in the form correctly.
+This app connects a user to the TOM-api. It gives the user a form to fill in that then gets sent back to the api to get a response from it.
+That response is then recorded and can be viewed in history where you can expand to see more details or delete.
 
-How to setup and run the app:
+Prerequisites:
+Requires node to be installed. Tested on 16.14
 
-1. drag the folder into your visual studio code.
-2. go into the terminal and type cd modelform (to go into the directory the app is in)
-3. in the terminal type npm run start
-4. open a second terminal and type cd modelform
-5.in the terminal type npx json-server --watch data/db.json --port8000
+npm install react
+npm install json-server
 
-after these 5 steps the program will be open and you will be able to use it in the browser.
+
+Running the project:
+Starting json-server:
+1. In one terminal, navigate to the project folder
+2. Run the command:
+
+json-server --watch data/db.json --port 8000
+
+Starting the React app:
+3. In another terminal, navigate to the project folder 
+4. Run the command:
+
+npm run start
+
+Additional features:
+1. Added a dropdown in the main page that allows users to choose between different models 
+2. Added a history page, that shows the previous form submittions and decision made.
+3. Users can delete entries in the history detail section.
+3. Styling was done with Tailwind CSS
