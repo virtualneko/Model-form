@@ -20,7 +20,7 @@
       "decision": "0",
       "confidence": false,
       "title": "Monks",
-      "id": 25
+      "id": 1
     },
     {
       "postData": {
@@ -28,12 +28,12 @@
           "type": "model",
           "attributes": {
             "input": {
-              "INPUTVAR0": "Cappuccino",
-              "INPUTVAR1": "22",
+              "INPUTVAR0": "Red Cappuccino",
+              "INPUTVAR1": "2",
               "INPUTVAR2": "Male",
               "INPUTVAR3": "22",
               "INPUTVAR4": "No",
-              "INPUTVAR5": "Afternoon",
+              "INPUTVAR5": "Morning",
               "INPUTVAR6": "NA",
               "INPUTVAR7": "Yes",
               "INPUTVAR8": "2",
@@ -45,131 +45,7 @@
       "decision": "Water / Fruit Juice",
       "confidence": false,
       "title": "Drink choice",
-      "id": 26
-    },
-    {
-      "postData": {
-        "data": {
-          "type": "model",
-          "attributes": {
-            "input": {
-              "INPUTVAR0": "B",
-              "INPUTVAR1": "2",
-              "INPUTVAR2": "1",
-              "INPUTVAR3": "1",
-              "INPUTVAR4": "1"
-            }
-          }
-        }
-      },
-      "decision": "L",
-      "confidence": false,
-      "title": "Balance scale",
-      "id": 27
-    },
-    {
-      "postData": {
-        "data": {
-          "type": "model",
-          "attributes": {
-            "input": {
-              "INPUTVAR0": "0",
-              "INPUTVAR1": "2",
-              "INPUTVAR2": "2",
-              "INPUTVAR3": "2",
-              "INPUTVAR4": "22",
-              "INPUTVAR5": "2",
-              "INPUTVAR6": "2"
-            }
-          }
-        }
-      },
-      "title": "Monks",
-      "id": 28
-    },
-    {
-      "postData": {
-        "data": {
-          "type": "model",
-          "attributes": {
-            "input": {
-              "INPUTVAR0": "0",
-              "INPUTVAR1": "2",
-              "INPUTVAR2": "2",
-              "INPUTVAR3": "2",
-              "INPUTVAR4": "2",
-              "INPUTVAR5": "2",
-              "INPUTVAR6": "2"
-            }
-          }
-        }
-      },
-      "decision": "0",
-      "confidence": false,
-      "title": "Monks",
-      "id": 29
-    },
-    {
-      "postData": {
-        "data": {
-          "type": "model",
-          "attributes": {
-            "input": {
-              "INPUTVAR0": "0",
-              "INPUTVAR1": "2",
-              "INPUTVAR2": "2",
-              "INPUTVAR3": "2",
-              "INPUTVAR4": "2",
-              "INPUTVAR5": "22",
-              "INPUTVAR6": "2"
-            }
-          }
-        }
-      },
-      "title": "Monks",
-      "id": 30
-    },
-    {
-      "postData": {
-        "data": {
-          "type": "model",
-          "attributes": {
-            "input": {
-              "INPUTVAR0": "0",
-              "INPUTVAR1": "2",
-              "INPUTVAR3": "2",
-              "INPUTVAR2": "2",
-              "INPUTVAR4": "2",
-              "INPUTVAR5": "2",
-              "INPUTVAR6": "2"
-            }
-          }
-        }
-      },
-      "decision": "0",
-      "confidence": false,
-      "title": "Monks",
-      "id": 31
-    },
-    {
-      "postData": {
-        "data": {
-          "type": "model",
-          "attributes": {
-            "input": {
-              "INPUTVAR0": "B",
-              "INPUTVAR1": "2",
-              "INPUTVAR2": "2",
-              "INPUTVAR3": "2",
-              "INPUTVAR4": "2"
-            }
-          }
-        }
-      },
-      "decision": "B",
-      "confidence": false,
-      "title": "Balance scale",
-      "id": 32
+      "id": 2
     }
   ]
 }
