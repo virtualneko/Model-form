@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 
 const useFetch = (url)=>{
     const[data, setData] = useState(null);
-   const [ispendeing, setIsPneding] = useState(true);
+   const [ispendeing, setIsPending] = useState(true);
    const [error, setError] = useState(null);
 
     useEffect(()=>{
@@ -17,7 +17,7 @@ const useFetch = (url)=>{
         })
         .then(data => {
              setData(data);
-             setIsPneding(false);
+             setIsPending(false);
              setError(null);
         })
         .catch(err =>{
@@ -25,7 +25,7 @@ const useFetch = (url)=>{
                 console.log('fetch aborted')
             } else{
              setError(err.message);
-             setIsPneding(false);
+             setIsPending(false);
             }
         })
         

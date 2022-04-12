@@ -1,4 +1,3 @@
-
 import GetModeldata from "./getmodeldata";
 
 const Model0 = () => {

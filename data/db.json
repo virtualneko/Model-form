@@ -46,6 +46,28 @@
       "confidence": false,
       "title": "Drink choice",
       "id": 2
+    },
+    {
+      "postData": {
+        "data": {
+          "type": "model",
+          "attributes": {
+            "input": {
+              "INPUTVAR0": "0",
+              "INPUTVAR1": "2",
+              "INPUTVAR2": "2",
+              "INPUTVAR3": "2",
+              "INPUTVAR4": "2",
+              "INPUTVAR5": "2",
+              "INPUTVAR6": "2"
+            }
+          }
+        }
+      },
+      "decision": "0",
+      "confidence": false,
+      "title": "Monks",
+      "id": 3
     }
   ]
 }
